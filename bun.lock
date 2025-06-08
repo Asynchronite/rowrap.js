@@ -3,6 +3,9 @@
   "workspaces": {
     "": {
       "name": "rowrap.js",
+      "dependencies": {
+        "bun-types": "^1.2.15",
+      },
       "devDependencies": {
         "@types/bun": "latest",
       },

@@ -1,21 +1,14 @@
 {
   "name": "rowrap.js",
+  "description": "JavaScript/TypeScript Roblox API wrapper for Node.js.",
+  "author": "Asynchronite",
+  "license": "MIT",
+  "version": "0.0.0",
   "module": "index.ts",
   "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "description": "JavaScript/TypeScript Roblox API wrapper for Node.js.",
-  "version": "0.0.0",
+  "homepage": "https://github.com/Asynchronite/rowrap.js#readme",
+  "keywords": [],
   "main": "index.js",
-  "dependencies": {
-    "bun-types": "^1.2.15",
-    "typescript": "^5.8.3",
-    "undici-types": "^6.21.0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,11 +16,16 @@
     "type": "git",
     "url": "git+https://github.com/Asynchronite/rowrap.js.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Asynchronite/rowrap.js/issues"
   },
-  "homepage": "https://github.com/Asynchronite/rowrap.js#readme"
+  "dependencies": {
+    "bun-types": "^1.2.15"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
 }
