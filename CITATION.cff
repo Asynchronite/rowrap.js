@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: rowrap.js
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Asynchronite
+    email: me@astrohweston.xyz
+repository-code: 'https://github.com/Asynchronite/rowrap.js'
+abstract: A Roblox API wrapper built for Node.js applications.
+keywords:
+  - api
+  - roblox
+  - wrapper
+  - nodejs
+license: MIT
+commit: fe223b205b357d2d196ec3ea3b0d9dad8d0dfaa1
+version: v0
+date-released: '2025-06-08'
